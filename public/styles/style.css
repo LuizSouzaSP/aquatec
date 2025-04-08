@@ -1,0 +1,196 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+* {
+    font-family: "Barlow", Arial, Helvetica, sans-serif 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    width: 80%;
+    margin:auto;
+    display: flex;
+}
+.header .container {
+    justify-content: space-between;
+}
+.header{
+    border-bottom: solid rgb(101, 179, 179) 2px;
+}
+.header .container .titulo{
+    color: rgb(101, 179, 179);
+    justify-content: space-between;
+}
+.header .navbar{
+    color: yellow;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.navbar a {
+    text-decoration: none;
+    color: yellow;
+}
+/* BANNER */
+.banner {
+    height: 350px;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+}
+.banner .container p {
+    color: aliceblue;
+    font-size: 40px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+.banner .container p span {
+    font-weight: 600;
+}
+
+.banner .container {
+    height: 100%;
+    justify-content: center;
+}
+.social {
+    background-color: #ffff;
+    height: 360px;
+}
+
+/* Missão visão e valeores */
+
+.boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    padding-top: 60px;
+    text-align: center;
+}
+.box img{
+    width: 50%;
+}
+.box h4{
+    color: crimson;
+}
+
+/* Rodapé da página */
+
+.footer .container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(101, 179, 179);
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container h4{
+    color: aliceblue;
+    height: 101px;
+    padding-top: 15px;
+    width: 31%;
+}
+
+/* Página de login */
+
+.login {
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 800px;
+    
+
+    display: flex;
+
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container{
+    display: flex;
+
+
+    text-align: center;
+    justify-content: center;
+    align-items: center
+}
+
+.login .container .card.card-login {
+    color: hotpink;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.login .container .card.card-login h2{
+    margin-top: 50px;
+}
+
+.login .container .card .formulario .campo input{
+    border:solid rgb(101, 179, 179) 2px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    
+}
+
+
+.login .container .card .formulario .campo span{
+    display: flex;
+    padding-top: 15px;
+}
+
+.login .container .card .formulario .botao{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 60px;
+    background-color: rgb(228, 5, 5);
+    color: aliceblue;
+    border: 0;
+    width: 150px;
+    border-radius: 15px;
+}
+
+/* cadastro */
+
+.login .container .card.card-cadastro{
+    color: hotpink;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+
+    width: 60%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+.login .container .card.card-cadastro h2{
+    margin-top: 40px;
+    font-size: 40px;
+}
